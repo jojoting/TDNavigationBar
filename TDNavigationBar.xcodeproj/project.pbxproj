@@ -15,6 +15,7 @@
 		B96B0E441C95C45D00AF4A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96B0E421C95C45D00AF4A98 /* LaunchScreen.storyboard */; };
 		B96B0E4F1C95C45D00AF4A98 /* TDNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B0E4E1C95C45D00AF4A98 /* TDNavigationBarTests.m */; };
 		B96B0E5A1C95C45E00AF4A98 /* TDNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B0E591C95C45E00AF4A98 /* TDNavigationBarUITests.m */; };
+		B96B0E6A1C95C49C00AF4A98 /* UINavigationBar+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B0E691C95C49C00AF4A98 /* UINavigationBar+Effect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B96B0E551C95C45D00AF4A98 /* TDNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96B0E591C95C45E00AF4A98 /* TDNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDNavigationBarUITests.m; sourceTree = "<group>"; };
 		B96B0E5B1C95C45E00AF4A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96B0E681C95C49C00AF4A98 /* UINavigationBar+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Effect.h"; sourceTree = "<group>"; };
+		B96B0E691C95C49C00AF4A98 /* UINavigationBar+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Effect.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B96B0E281C95C45D00AF4A98 = {
 			isa = PBXGroup;
 			children = (
+				B96B0E671C95C49C00AF4A98 /* Categories */,
 				B96B0E331C95C45D00AF4A98 /* TDNavigationBar */,
 				B96B0E4D1C95C45D00AF4A98 /* TDNavigationBarTests */,
 				B96B0E581C95C45D00AF4A98 /* TDNavigationBarUITests */,
@@ -138,6 +142,16 @@
 				B96B0E5B1C95C45E00AF4A98 /* Info.plist */,
 			);
 			path = TDNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		B96B0E671C95C49C00AF4A98 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B96B0E681C95C49C00AF4A98 /* UINavigationBar+Effect.h */,
+				B96B0E691C95C49C00AF4A98 /* UINavigationBar+Effect.m */,
+			);
+			name = Categories;
+			path = TDNavigationBar/Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +286,7 @@
 			files = (
 				B96B0E3C1C95C45D00AF4A98 /* ViewController.m in Sources */,
 				B96B0E391C95C45D00AF4A98 /* AppDelegate.m in Sources */,
+				B96B0E6A1C95C49C00AF4A98 /* UINavigationBar+Effect.m in Sources */,
 				B96B0E361C95C45D00AF4A98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
