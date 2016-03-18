@@ -16,6 +16,7 @@
 		B96B0E4F1C95C45D00AF4A98 /* TDNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B0E4E1C95C45D00AF4A98 /* TDNavigationBarTests.m */; };
 		B96B0E5A1C95C45E00AF4A98 /* TDNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B0E591C95C45E00AF4A98 /* TDNavigationBarUITests.m */; };
 		B96B0E6A1C95C49C00AF4A98 /* UINavigationBar+Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = B96B0E691C95C49C00AF4A98 /* UINavigationBar+Effect.m */; };
+		B96B0E6D1C9BF10C00AF4A98 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B96B0E6C1C9BF10C00AF4A98 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		B96B0E5B1C95C45E00AF4A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96B0E681C95C49C00AF4A98 /* UINavigationBar+Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Effect.h"; sourceTree = "<group>"; };
 		B96B0E691C95C49C00AF4A98 /* UINavigationBar+Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Effect.m"; sourceTree = "<group>"; };
+		B96B0E6C1C9BF10C00AF4A98 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		B96B0E281C95C45D00AF4A98 = {
 			isa = PBXGroup;
 			children = (
+				B96B0E6B1C9BF10C00AF4A98 /* resource */,
 				B96B0E671C95C49C00AF4A98 /* Categories */,
 				B96B0E331C95C45D00AF4A98 /* TDNavigationBar */,
 				B96B0E4D1C95C45D00AF4A98 /* TDNavigationBarTests */,
@@ -152,6 +155,14 @@
 			);
 			name = Categories;
 			path = TDNavigationBar/Categories;
+			sourceTree = "<group>";
+		};
+		B96B0E6B1C9BF10C00AF4A98 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B96B0E6C1C9BF10C00AF4A98 /* bg.png */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				B96B0E441C95C45D00AF4A98 /* LaunchScreen.storyboard in Resources */,
 				B96B0E411C95C45D00AF4A98 /* Assets.xcassets in Resources */,
+				B96B0E6D1C9BF10C00AF4A98 /* bg.png in Resources */,
 				B96B0E3F1C95C45D00AF4A98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
